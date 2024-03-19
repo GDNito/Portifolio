@@ -7,7 +7,6 @@ const MobileProjectMold = ({
   github,
   site,
 }) => {
-  console.log(site);
   return (
     <div id="projects" className="w-full">
       <div className="bg-sec rounded-xl h-90 w-48 p-2 text-white max-h-96">

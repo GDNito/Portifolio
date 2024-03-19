@@ -9,7 +9,10 @@ import figma from "../assets/svg/figma.svg";
 const Tech = () => {
   return (
     <>
-      <div id="techs" className="flex flex-wrap m-8 gap-4 justify-center ">
+      <div
+        id="techs"
+        className="flex flex-wrap m-8 gap-4 justify-center items-center "
+      >
         <img src={css} alt="" />
         <img src={js} alt="" />
         <img src={html} alt="" />

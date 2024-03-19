@@ -22,19 +22,19 @@ const Contact = () => {
       <img
         src={email}
         alt=""
-        className="h-10 w-10 bg-sec rounded-lg"
+        className="h-10 w-10 bg-sec rounded-lg cursor-pointer"
         onClick={handleCopy}
       />
       <img
         src={whatsapp}
         alt=""
-        className="h-10 w-10 bg-sec rounded-lg"
+        className="h-10 w-10 bg-sec rounded-lg cursor-pointer"
         onClick={() => window.open("https://wa.me/5511984258225")}
       />
       <img
         src={linkedin}
         alt=""
-        className="h-10 w-10 bg-sec rounded-lg"
+        className="h-10 w-10 bg-sec rounded-lg cursor-pointer"
         onClick={() =>
           window.open(
             "https://www.linkedin.com/in/matheus-forster-antunes-0b3ab82a3/"
@@ -44,7 +44,7 @@ const Contact = () => {
       <img
         src={github}
         alt=""
-        className="h-10 w-10 bg-sec rounded-lg"
+        className="h-10 w-10 bg-sec rounded-lg cursor-pointer"
         onClick={() => window.open("https://github.com/GDNito")}
       />
     </div>

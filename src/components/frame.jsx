@@ -7,7 +7,7 @@ import MobileProjects from "./MobileProjects";
 const Frame = () => {
   const [shown, setShown] = useState(0);
   const options = [<Textabout />, <MobileCourses />, <MobileProjects />]; // Pass 'shown' as a prop to ProjectShowcase
-  window.addEventListener("resie", () => {
+  window.addEventListener("resize", () => {
     setShown(0);
   });
   return (

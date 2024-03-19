@@ -7,12 +7,12 @@ const TechSelect = () => {
 
   const courseClass =
     active === 0
-      ? "text-center text-neutral-500 text-3xl"
-      : "text-center text-white border-b-4 border-sec text-3xl";
+      ? "text-center text-neutral-500 text-3xl cursor-pointer"
+      : "text-center text-white border-b-4 border-sec text-3xl cursor-pointer";
   const techClass =
     active === 1
-      ? "text-center text-neutral-500 text-3xl"
-      : "text-center text-white border-b-4 border-sec text-3xl";
+      ? "text-center text-neutral-500 text-3xl cursor-pointer"
+      : "text-center text-white border-b-4 border-sec text-3xl cursor-pointer";
   const shown = active === 0 ? <Tech /> : <Courses />;
   return (
     <>
